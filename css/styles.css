@@ -22,7 +22,6 @@ body {
 
 .logo {
 font-family:'Raleway', sans-serif;
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -31,7 +30,6 @@ color:var (--main-title-color);
 }
 .logo-part-one {
 font-family:'Raleway', sans-serif;
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -41,7 +39,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo-part-two {
 font-family:'Raleway', sans-serif;
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -76,7 +73,6 @@ background: #2F303A;
 .modal-btn {
 background-color:#2196F3;
 text-decoration: none;
-font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.87;
@@ -90,6 +86,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 box-sizing: border-box;
+cursor: pointer;
 } 
 .modal-btn:hover,
 .modal-btn:focus {
@@ -98,7 +95,6 @@ box-sizing: border-box;
  }
 .main-title {
 font-family:'Roboto', sans-serif;
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -120,7 +116,6 @@ text-transform: uppercase;
 color: var(--main-text-color);
 }
 .features-text {
-font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -161,7 +156,6 @@ color: var(--secondary-text-color);
 /*======== Footer======== */
 .logo-footer {
 font-family: 'Raleway', sans-serif;
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -175,14 +169,12 @@ color:var(--accent-color);
 color:var(--main-title-color);
 }   
 .adress {
-font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
 .footer-mail-tel-link {
-font-weight: normal;
 font-size: 14px;
 line-height: 1.71; 
 letter-spacing: 0.03em; 
@@ -194,15 +186,13 @@ background-color: #2F303A;
 
 /*======== Portfolio.html======== */
 .project-name {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--main-text-color);  
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-text-color);  
 }
 .project-description {
-font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
@@ -211,13 +201,13 @@ color:var(--secondary-text-color);
 }
 .progects-btn {
 background-color: #F5F4FA;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color:var( --main-text-color);
+cursor: pointer;
 }
 .progects-btn:hover,
 .progects-btn:focus {
